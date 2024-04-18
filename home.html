@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <!-- Feb Icone  -->
+    <link rel="icon" type="image/x-icon" href="/images/febicone.png">
+    <title>WorkProject1</title>
+
+    <!-------------------------------------------
+                FreamWork ALL Link
+    --------------------------------------  -->
+        <!-- FontAawome Cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Swiper Js Link  -->
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-------------------------------------------
+                FreamWork ALL Link-End 
+    --------------------------------------  -->
+
+    <!-------------------------------------------
+            Css ALL Link
+    --------------------------------------  -->
+    <!--  Home Css -->
+        <link rel="stylesheet" href="/css/Home.css">
+
+    <!-------------------------------------------
+            Css ALL Link End
+    --------------------------------------  -->
+</head>
+<body>
+    <!-- Naver Part Start  -->
+    <section >
+        <header>
+            <nav class="Navber">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="/images/bird-colorful-gradient-design-vector_343694-2506-removebg-preview.png" alt="" class="logoimg">
+                    <h4 style="color: crimson; cursor: pointer;">WorkProject1</h4>
+                </div>
+                <!-- Input -->
+                <div class="input">
+                    <input type="search" name="" id="" placeholder="Sear Your Item" >
+                </div>
+                <div class="nav">
+                    <a href="#" >Home</a>
+                    <a href="#" >About</a>
+                    <a href="#" >Menu</a>
+                    <a href="#" >Contrac</a>
+                    <a href="#" >Location</a>
+                    <button type="button" class="navbtn">Sign In </button>
+                    <button type="button" class="navbtn2">Sign UP  <i class="fa-solid fa-arrow-right-to-bracket "></i> </button>
+                </div>
+            </nav>
+        </header>
+    </section>
+
+        <!-- Naver Part Start End  -->
+
+    <!----------------- Hero Part  -------------->
+        <section>
+          <div class="button-part">
+            <ul>
+                <li><i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;">
+                
+                </i>Women & Girl Faction</li>
+                <li><i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"> </i>Healdy & Beauty
+                
+             
+                </li>
+                <li> <i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"> </i>Mother & baby</li>
+                <li> <i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"></i> Home & LifeStyle </li>
+                <li><i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"></i> Sport & OutDoor</li>
+                <li> <i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"></i>Women & Girl Faction</li>
+                <li><i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"></i>Healdy & Beauty </li>
+                <li><i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"></i>Mother & baby</li>
+                <li><i class="fa-solid fa-person-dress" style="color:#3cb371;height: 25px;"></i>Home & LifeStyle </li>
+                <li> Sport & OutDoor</li>
+            </ul>
+          </div>
+          <div class="slaider">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="/images/s1.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/images/s2.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/images/s5.webp" alt=""></div>
+                  <div class="swiper-slide"><img src="/images/s4.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/images/s5.webp" alt=""></div>
+                  <div class="swiper-slide"><img src="/images/s3.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/images/s4.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="/images/s5.webp" alt=""></div>
+                 
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+          </div>
+
+         
+        </section>
+    <!----------------- Hero Part End -------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>
